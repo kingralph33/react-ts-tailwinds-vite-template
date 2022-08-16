@@ -12,6 +12,30 @@ dist
 dist-ssr
 *.local
 
+### react ###
+**/*.backup.*
+**/*.back.*
+bower_components
+*.sublime*
+psd
+thumb
+sketch
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -30,3 +54,10 @@ dist-ssr
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
+
+### CypressIO ###
+# website: https://www.cypress.io/
+cypress/results/*
+cypress/reports/*
+cypress/screenshots/*
+cypress/videos/*
