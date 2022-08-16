@@ -1,5 +1,15 @@
-### Template for React, Typescript, Tailwinds CSS, and Vite projects
+### Template for React projects
 
 ---
+## Tools used:
+- Use Yarn v2 PnP
+- React
+- Vite
+- Typescript
+- TailwindCss
+- EsLint
+- Prettier
+- Cypress
 
--   Use Yarn v2 PnP
+---
+Scripts are within the package.json file.  Be sure to upgrade to Yarn v2 if needed
