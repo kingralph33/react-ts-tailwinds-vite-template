@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { useState } from 'react' // eslint-disable-line import/no-duplicates
 import reactLogo from './assets/react.svg'
 import './App.css'
 
-function App() {
+function App() { // eslint-disable-line @typescript-eslint/explicit-function-return-type
   const [count, setCount] = useState(0)
 
   return (
